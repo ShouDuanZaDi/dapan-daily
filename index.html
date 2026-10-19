@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>大盘日报 · 站点初始化</title>
+<meta name="description" content="A股大盘日报看板，每个交易日自动更新。">
+<meta property="og:title" content="大盘日报">
+<meta property="og:image" content="https://dapan-daily.pages.dev/_assets/cover.png">
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0b0f14;color:#e9eef7;
+ font:15px/1.8 "PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+.box{max-width:560px;padding:28px 30px;border:1px solid rgba(255,255,255,.12);border-radius:16px;
+ background:linear-gradient(160deg,rgba(255,255,255,.05),rgba(255,255,255,.01))}
+h1{margin:0 0 10px;font-size:22px}
+p{margin:6px 0;color:#8e9aab}
+code{font-family:ui-monospace,Consolas,monospace;color:#5eead4;font-size:13px}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>大盘日报 · 站点已就绪</h1>
+  <p>这是一个空的占位页，用于打通 GitHub → Cloudflare Pages 的部署链路。</p>
+  <p>发布命令：<code>python scripts/site-deploy/deploy.py dapan-daily &lt;你的输出目录&gt;</code></p>
+  <p>首次发布后本页会被覆盖为真正的看板。</p>
+</div>
+</body>
+</html>
